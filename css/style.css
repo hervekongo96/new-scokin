@@ -36,7 +36,9 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden !important;
 }
-
+.black-fluid {
+    background-color: rgb(19, 18, 18);
+}
 body {
     color: #666666;
     font-size: 14px;
@@ -151,7 +153,9 @@ a,
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-
+.contact_bt{
+    background-color: red;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -168,7 +172,7 @@ img {
 .btn-custom {
     margin-top: 20px;
     background-color: transparent !important;
-    border: 2px solid #ddd;
+    border: 2px solid #201f1f;
     padding: 12px 40px;
     font-size: 16px;
 }
@@ -182,7 +186,7 @@ img {
 }
 
 .form-control:focus {
-    border-color: #ffffff !important;
+    border-color: #201f1f !important;
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -223,7 +227,8 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/barnner-bg.jpg);
+    background-repeat: no-repeat;
     height: auto;
     background-size: 100%;
 }
@@ -253,6 +258,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 50px;
+    background-color: #00000075;
 }
 
 .banner_taital {
